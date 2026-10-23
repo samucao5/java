@@ -21,7 +21,7 @@ public class Criando_uma_classe {
         System.out.println("o carro esta acelerando");
     }
 
-    void exibir_info(String marca, String modelo, int ano)
+    void exibir_info()
     {
         System.out.println("marca do carro: " + marca + "\nmodelo do carro: " + modelo + "\nano do carro: " + ano);
     }
