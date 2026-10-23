@@ -1,0 +1,10 @@
+Instanciando objetos
+
+Objetos são instancias de uma classe
+para instanciar um objeto, usamos a palavra-chave new 
+A instancia cria uma copia do modelo da classe em memoria
+cada objeto tem seus próprios valores de atributos, independentes de outros objetos
+A instancia de um objeto permite acessar métodos e atributos definidos na classe
+A sintaxe básica para criar um objeto é:
+	NomeDaClasse nomeDoObjeto = new NomeDaClasse();
+Ao instanciar um objeto, podemos acessar seus métodos e definir valores para seus atributos
