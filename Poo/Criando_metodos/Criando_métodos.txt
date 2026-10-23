@@ -1,0 +1,17 @@
+Criando métodos
+
+Métodos são funções dentro de uma classe que definem o comportamento de um objeto
+Eles permitem que o objeto realizem ações ou operações
+A sintaxe de um método inclui o tipo de retorno, o nome do método, e os parâmetros
+métodos podem ou não retornar um valor, dependendo da definição
+para criar um método, usamos a seguinte estrutura:
+	public TipoDeRetorno nomeDoMetodo(TipoParametro parâmetro)
+	{
+	//corpo do metodo
+	
+	}
+
+Se o método não retornar valor, usamos void
+Os métodos são chamados a partir de uma instancia de um objeto da classe
+Os métodos podem receber parâmetros para trabalhar com dados e retornar resultados
+
