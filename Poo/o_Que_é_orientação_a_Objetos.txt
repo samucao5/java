@@ -1,0 +1,22 @@
+o Que é orientação a Objetos?
+
+Orientação a Objetos(POO) é um paradigma de programação que organiza o software em torno de objetos;
+
+Esses Objetos representam entidades do mundo real e interagem entre si para resolver problemas
+
+Cada objetos é uma instancia de uma classe, que define os atributos e comportamentos do objetos
+
+POO facilita o design modular do software, tornando-o mais fácil de manter reutilizar e expandir
+
+OS principais pilares do POO são abstração, encapsulamento, herança e polimorfismo
+
+Benefícios da Orientação a Objetos
+
+Modularidade: O código e organizado em classes e objetos, tornando-o mais fácil de entender e manter
+
+Reuso de código: A herança e a modularidade facilitam a reutilização de partes do código em diferentes aplicações 
+
+Facilidade de Manutenção: Alterações podem ser feitas em uma classes sem afetar outras partes do sistema, promovendo maior flexibilidade
+
+Segurança: O encapsulamento protege os dados e controla o acesso aos atributos e métodos de uma classe;
+
