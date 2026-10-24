@@ -1,0 +1,13 @@
+O que são getters?
+
+Getters são métodos usados para acessar os valores das propriedades privadas de uma classe
+
+Eles permitem que outras classes ou métodos leiam os atributos, mas sem permitir modifica-los diretamente
+
+Getters seguem a convenção de nomeação: getNomePropriedade();
+
+Um getter retorna o valor da propriedade correspondente e não deve alterar o estado do objeto
+
+é uma pratica comum usar getters para manter o principio do encapsulamento
+
+Getters ajudam a garantir que os atributos de um objeto sejam acessados de forma controlada
