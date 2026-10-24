@@ -1,0 +1,19 @@
+o que é Encapsulation?
+
+Encapsulamento (encapsulation) é um dos pilares da Programação Orientada a Objetos (POO)
+
+Ele consiste em esconder os detalhes internos de uma classe e expor apenas o necessário para o usuário da classe
+
+A ideia principal e proteger os dados de acessos indevidos ou modificações diretas
+
+Encapsulamento e obtido através do uso de modificação de acesso, como private, protected e public 
+
+Propriedades privadas so podem ser acessadas ou modificadas por métodos específicos da classe (getters e setters)
+
+Getters e Setters fornecem uma maneira controlada de acessar e modificar os atributos da classe
+
+Encapsulamento promove a integridade dos dados e facilita a manutenção do código
+
+O objetivo e garantir que os atributos da classe só sejam alterados de maneira controlada e valida
+
+
