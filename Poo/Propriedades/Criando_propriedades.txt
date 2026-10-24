@@ -1,0 +1,16 @@
+Criando propriedades
+
+Propriedades são atributos de uma classe que definem as características de um objeto
+
+Cada Propriedade tem um tipo de dado, como int, double, String e entre outros
+
+As Propriedades podem ser publicas, privadas ou protegidas, dependendo da visibilidade desejada
+
+Propriedades geralmente são declaradas no inicio da classe
+
+Propriedades publicas podem ser acessadas diretamente, enquanto propriedades privadas exigem métodos getters e setters;
+
+O Valor dasd propriedades pode ser alterado diretamente (se publico) ou por meio de métodos (se privado);
+
+Boas praticas de encapsulamento sugerem o uso de propriedades privadas como métodos públicos para acessar e modificar os valores
+
