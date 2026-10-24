@@ -1,0 +1,12 @@
+O que são Setters?
+
+Setters são métodos usados para alterar os valores das propriedades privadas de uma classe
+
+Eles permitem o controle sobre como os atributos de um objeto são modificados 
+
+Setters seguem a convenção de nomeação: setNomePropriedade();
+
+Setters garantem que os valores dos atributos sejam validos antes de serem atribuídos
+
+com setters, e possível adicionar logica de validação ou manipulação dos dados antes de atualizar o valor
+
