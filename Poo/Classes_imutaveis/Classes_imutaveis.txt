@@ -1,0 +1,14 @@
+Classes imutáveis
+
+uma classe imutável é aquela cuja instancias (objetos) não podem ser modificadas depois de criadas
+
+Todos os atributo de uma classe imutável são declarados como private e final
+
+não há setters, e qualquer alteração nos atributos requer a criação de um novo objeto
+
+classes imutáveis garantem consistência e segurança no código, evitando mudanças inesperadas no estado do objeto
+
+Exemplos de classes imutáveis nativas em java incluem String e classes wrappers como Integer e Double
+
+Classes imutáveis são particularmente uteis em programação multithread, pois eliminam a necessidade de sincronização
+ 
