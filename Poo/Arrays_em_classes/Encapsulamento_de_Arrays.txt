@@ -1,0 +1,14 @@
+Encapsulamento de Arrays
+
+Encapsulamento é a pratica de restringir o acesso direto aos atributos de uma classe, expondo-os apenas através de métodos controlados (getters e setter) 
+
+Quando trabalhamos com arrays ou coleções, o encapsulamento é igualmente importante
+
+Arrays e coleções contem múltiplos dados, e expô-los diretamente pode permitir modificações não controladas, causando inconsistências
+
+Para encapsular Arrays ou coleções, usamos getters e setters, garantindo que acessos e modificações sejam feitos de forma controlada
+
+é importante fornecer cópias ao expor arrays ou coleções, usamos getters e setters, garantindo que acessos e modificações sejam feitos de forma controlada
+
+é importante fornecer copias ao expor arrays ou coleções, garantindo que o conteúdo original não seja alterado diretamente
+
