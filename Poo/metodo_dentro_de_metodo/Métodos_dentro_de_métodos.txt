@@ -1,0 +1,12 @@
+Métodos dentro de métodos 
+
+Em java, métodos podem chamar outros métodos dentro da mesma classe
+
+Essa pratica ajuda a modularizar o código, quebrando funcionalidades complexas em partes menores
+
+Chamar um método dentro de outro promove a reutilização de código e facilita a manutenção
+
+Ao combinar métodos, é possível realizar ações mais complexas e evitar duplicação de código
+
+Métodos dentro de métodos ajudam a simplificar a logica, tornando o código mais claro e legível
+
