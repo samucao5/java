@@ -1,0 +1,14 @@
+Modificadores de acesso 
+
+Os modificadores de acesso controlam a visibilidade dos membros de uma classe (atributos e métodos);
+
+public: O membro pode ser acessado de qualquer lugar (dentro ou fora do pacote)
+
+private: O membro só pode ser acessado dentro da própria classe
+
+protected: O membro pode ser acessado dentro da classe, suas subclasses e classes do mesmo pacote
+
+O uso correto dos modificadores de acesso e fundamental para aplicar o encapsulamento
+
+Eles protegem os dados e métodos, garantindo o controle de como eles são acessados e modificados
+
