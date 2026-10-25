@@ -1,0 +1,13 @@
+O que são constructors?
+
+Construtores (constructors) são métodos especiais usado para inicializar objetos
+
+Eles são chamados automaticamente quando um novo objeto e criado
+
+O nome de um construtor deve ser o mesmo que o nome da classe 
+
+Construtores não tem um tipo de retorno (nem mesmo void)
+
+podem ser usado para atribuir valores iniciais aos atributos de um objeto
+
+Java fornece um construtor padrão se nenhum for definido, mas construtores personalizados permitem maior controle na criação do objeto
