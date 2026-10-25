@@ -1,0 +1,12 @@
+Logica no Getter e Setter
+
+Getters e Setters podem conter logica para validar, processar ou modificar os dados antes de serem lidos ou gravados
+
+A logica nos Setters permite validar os dados antes de armazena-los, garantindo integridade
+
+A logica nos Getters podem processar ou formatar os dados antes de retorna-los
+
+Isso melhora a segurança e o controle sobre como os atributos são manipulados 
+
+Alterar dados com logica nos Getters e Setters mantem o principio do encapsulamento e previne valores inválidos
+
