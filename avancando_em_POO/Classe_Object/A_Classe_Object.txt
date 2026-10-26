@@ -1,0 +1,10 @@
+A Classe Object 
+
+Object e á superclasse de todas as classes em java
+
+Todas as classes em java, direta ou indiretamente, herdam da classe Object
+
+ela define métodos comuns que podem ser usados em qualquer classe, como toString(), equals(), hashCode() e getClass()
+
+Esses métodos podem ser sobrescritos (overridden) nas classes que você criar para fornecer comportamentos específicos
+
