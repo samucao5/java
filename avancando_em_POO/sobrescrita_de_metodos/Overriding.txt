@@ -1,0 +1,10 @@
+Overriding
+
+Overriding (ou Sobrescrita) é um recurso da Programação Orientada a Objetos (POO) que permite a uma subclasse fornecer uma implementação especifica para um método que já esta definido na superclasse
+
+O método sobrescrito na subclasse deve ter a mesma assinatura (mesmo nome e parâmetros) que o método da superclasse
+
+A palavra-chave @Override é usada para indicar que um método esta sendo sobrescrito
+
+Overriding permite que a subclasse modifique ou especialize herdado de uma superclasse
+
