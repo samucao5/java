@@ -1,0 +1,14 @@
+Classes Abstratas
+
+uma classe abstrata em java é uma classe que não pode ser instanciada diretamente
+
+Ela serve como um "modelo" para outras classes, definindo métodos que as subclasses devem implementar
+
+classes abstratas podem conter métodos 
+	
+    Abstratos (sem implementação), que devem ser implementados pelas subclasses
+
+    Concretos (com implementação), que podem ser herdados ou sobrescritos
+
+A principal função de uma classe abstrata é fornecer uma estrutura comum para subclasses. garantindo que elas implementem certos métodos.
+
