@@ -1,0 +1,12 @@
+Método Super
+
+super e uma palavra-chave em java usada para referenciar a superclasse de uma subclasse
+
+Através de super, uma subclasse pode:
+
+	chamar o construtor da superclasse
+
+	Acessar métodos e atributos da superclasse que foram sobrescritos na subclasse
+
+O uso de super e comum quando a subclasse deseja reutilizar parte do comportamento da superclasse
+
