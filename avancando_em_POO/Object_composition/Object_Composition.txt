@@ -1,0 +1,8 @@
+Object Composition
+
+Composição de Objetos e um principio da Programação Orientada a Objetos (POO), onde um objetos é composto por outros objetos
+
+Na composição, um objeto maior contem outros objetos menores como atributos, combinando suas funcionalidades para formar comportamentos mais complexos
+
+A composição oferece uma alternativa à herança, favorecendo a reutilização de código sem criar dependências rígidas entre classes
+
