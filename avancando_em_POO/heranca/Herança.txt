@@ -1,0 +1,10 @@
+Herança
+
+Herança é um dos pilares da Programação Orientada a Objetos(POO)
+
+Permite que uma classe herde atributos e métodos de outra classe
+
+Cria uma relação entre as classes, onde a subclasse é um tipo especializado da superclasse
+
+Herança promove o reuso de código, facilitando a criança de novas classes sem duplicação de lógica
+
