@@ -1,0 +1,24 @@
+Reflection API
+O que é reflexão (reflection API)?
+
+   Reflexão é uma API que permite inspecionar e modificar o comportamento de classes, métodos e atributos em tempo de execução
+
+   Com a Reflection API, você pdoe obter informações sobre uma classe, como seus métodos, construtores e campos, sem conhecer a classe em tempo de compilação 
+
+Principais Usos da Reflexão
+
+   Inspeção de classes e seus membros (métodos, construtores e campos)
+
+   Invocação de métodos de forma dinâmica
+
+   Acessar e modificar campos privados e protegidos
+
+   Criação de instancia de classes em tempo de execução
+
+Como usar a Reflexão?
+
+   Obter a classe: Use Class.forName() ou objeto.getClass();
+
+   Obter métodos, campos e construtores: Utilize os métodos da classe Class como getMethods(), getFields()
+ 
+   Invocar métodos: Use Méthod.invoke() para chamar métodos de forma dinâmica
