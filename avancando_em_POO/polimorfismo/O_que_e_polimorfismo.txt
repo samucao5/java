@@ -1,0 +1,12 @@
+O que é polimorfismo?
+
+Polimorfismo é um dos pilares da Programação Orientada a Objetos  (POO)
+
+O termo significa "muitas formas" e permite que uma única interface (ou tipo) seja usada para diferentes tipos de objetos
+
+Em java, o polimorfismo permite que um objeto de uma subclasse seja tratado como um objeto de sua superclasse, e também que métodos da superclasse sejam sobrescritos pelas subclasses 
+
+Existem dois tipos de polimorfismo:
+    Polimorfismo de Sobrescrita (Override): Quando uma subclasse fornece sua própria implementação de um método herdado da superclasse
+
+    Polimorfismo de Sobrecarga  (Overload): Quando vários métodos tem o mesmo nome, mas com assinaturas diferentes (não será o foco aqui)
