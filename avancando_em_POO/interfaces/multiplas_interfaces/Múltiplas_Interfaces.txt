@@ -1,0 +1,7 @@
+Múltiplas Interfaces
+
+em Java, uma classe pode implementar varias interfaces, permitindo que ela herde comportamentos de diferentes fontes
+
+Diferente da Herança, onde uma classe pode herdar de apenas uma superclasse, com interfaces a classe pode "herdar" comportamentos de varias interfaces 
+
+Isso oferece maior flexibilidade ao criar classes que precisam combinar comportamentos de diferentes domínios
