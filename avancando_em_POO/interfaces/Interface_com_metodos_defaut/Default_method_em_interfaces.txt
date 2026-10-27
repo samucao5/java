@@ -1,0 +1,7 @@
+Default method em interfaces
+
+Default methods são métodos concretos (com implementação) dentro de interfaces
+
+introduzidos no java 8, eles permitem adicionar novas funcionalidades a interfaces existentes sem quebrar a compartibilidade com classes que já as implementam
+
+com métodos default, você pode fornecer uma implementação padrão que pode ou não ser sobrescrita pelas classes que implementam a interfaces 
