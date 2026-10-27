@@ -1,0 +1,11 @@
+Interfaces 
+
+Uma interface em Java é um contrato que define um conjunto de métodos que uma classe deve implementar
+
+Ela não fornece a implementação desses métodos, apenas suas assinaturas
+
+Uma classe pode implementar múltiplas interfaces, permitindo maior flexibilidade em comparação a herança simples
+
+As interfaces são ideias para definir comportamentos que podem ser compartilhados por classes não relacionadas
+
+Desde Java 8, interfaces podem conter métodos concretos com a palavra-chave default
