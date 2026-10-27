@@ -1,0 +1,26 @@
+Métodos e classes final
+
+o que e final em java?
+   
+   A palavra-chave final pode ser usada em classes, métodos e variáveis
+
+   Quando aplicada a classes e métodos, impede modificações e sobrescritas
+
+Classes final
+
+   Uma classe marcada como final não pode ser estendida 
+
+   Uso: Quando você quer garantir que a implementação de uma classe não seja alterada por subclasses
+
+Métodos final
+
+   Um método marcado como final não pode ser sobrescrito por subclasses
+
+   Uso: Para proteger comportamento essenciais que não devem ser alterados
+
+Quando usar final?
+
+   Classes final: use quando quiser impedir que uma classe seja herdada
+
+   Métodos final: use quando quiser garantir que métodos importantes não sejam sobrescritos
+
