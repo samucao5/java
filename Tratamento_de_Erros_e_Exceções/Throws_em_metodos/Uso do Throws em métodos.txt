@@ -1,0 +1,12 @@
+Uso do Throws em métodos 
+
+A palavra-chave throws é usada na declaração de um método para indicar que ele pode lançar uma ou mais exceções
+
+Métodos que lançam exceções verificadas devem declarar essas exceções usando throws
+
+Exceções não verificadas não precisam ser declaradas com throws
+
+o throws delega o tratamento da exceção para quem invoca o método, em vez de trata-la diretamente dentro do método
+
+Sintaxe: public void método() throws ExceçãoTipo{...}
+
