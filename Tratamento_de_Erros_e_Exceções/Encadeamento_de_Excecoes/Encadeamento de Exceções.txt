@@ -1,0 +1,11 @@
+Encadeamento de Exceções 
+
+Encadeamento de exceções permite associar uma exceção a outra, para rastrear a causa original de um erro
+
+Útil para identificar a cuasa raiz de uma exceção ao longo de múltiplos níveis de métodos 
+
+A exceção primaria (externa) pode "encapsular" a exceção original (causa interna) usando o método initCause() ou passando a causa no construtor da exceção 
+
+Facilita a depuração ao preservar o histórico completo das exceções que ocorreram 
+
+Sintaxe: new Excecao("Mensagem", causa) ou excecao.initCause(causa) 
