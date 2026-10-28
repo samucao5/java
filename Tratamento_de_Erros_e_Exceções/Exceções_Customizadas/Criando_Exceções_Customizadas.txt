@@ -1,0 +1,10 @@
+Criando Exceções Customizadas
+
+Exceções customizadas permitem criar erros específicos para o contexto da sua aplicação
+
+Para criar uma exceção personalizada, você herda de Exception(verificada) ou RuntimeException (não verificada);
+
+você pode adicionar mensagens de erro personalizadas e comportamentos específicos 
+
+As exceções personalizadas melhoram a legibilidade do código e a tratativa de erros específicos
+
