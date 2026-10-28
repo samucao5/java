@@ -1,0 +1,10 @@
+Bloco finally
+
+O bloco finnaly é usado junto com try-catch para garantir que o código seja executado, independentemente de uma exceção ter sido lançada ou não
+
+O código no bloco finally sempre será executado, mesmo que haja um retorno antecipado no try ou catch
+
+É comumente usado para liberar recursos, como fechar, como fechar arquivos, conexões de banco de dados ou liberar memória 
+
+Um bloco finally pode ser usado com ou sem bloco catch
+
