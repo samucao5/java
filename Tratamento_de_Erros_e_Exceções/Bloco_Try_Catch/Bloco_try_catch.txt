@@ -1,0 +1,11 @@
+Bloco try_catch
+
+O bloco try-catch permite capturar e tratar exceções que ocorrem durante a execução do programa
+
+O código que pode gerar um exceção é colocado dentro do bloco try
+
+O bloco catch captura a exceção e executa o código de tratamento
+
+É possível ter múltiplos blocos catch para tratar diferentes tipos de exceções
+
+Usar try-catch evita que o programa encerre inesperadamente em caso de erro 
