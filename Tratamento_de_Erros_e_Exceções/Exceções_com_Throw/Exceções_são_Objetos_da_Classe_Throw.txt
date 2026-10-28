@@ -1,0 +1,13 @@
+Exceções são Objetos da Classe Throwable 
+
+A palavra-chave throw é usada para lançar uma exceção explicitamente em um bloco de código
+
+Pode ser usada para lançar exceções verificadas e não verificadas
+
+Permite criar exceções verificadas e não verificadas
+
+Permite criar exceções personalizadas ou lançar exceções existentes em cenários específicos
+
+Após lançar uma exceção com throw, o fluxo de execução é interrompido e a exceção deve ser tratada ou propaganda
+
+Sintaxe: throw new ExececaoTipo("mensagem de erro");
