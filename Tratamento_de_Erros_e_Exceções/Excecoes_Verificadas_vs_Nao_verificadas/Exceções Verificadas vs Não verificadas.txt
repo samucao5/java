@@ -1,0 +1,27 @@
+Exceções Verificadas vs Não verificadas 
+
+Exceções Verificadas:
+ 
+    São verificadas em tempo de compilação
+
+    O compilador exige que você trate ou declare essas Exceções com try-catch ou throws
+
+    Exemplo: IOException, SQLException
+
+Exceções Não verificadas: 
+
+    Ocorrem em tempo de execução
+
+    O compilador não exigem que sejam tratadas
+
+    Geralmente indicam erros de logica no código 
+
+    Exemplo: NUllPointerException, ArrayIndexOutBoundsException;
+
+Diferença Principal:
+
+   Verificadas: tratamento obrigatório
+
+   Não verificadas: Tratamento opcional, mas pode ser necessário para evitar falhas
+
+
