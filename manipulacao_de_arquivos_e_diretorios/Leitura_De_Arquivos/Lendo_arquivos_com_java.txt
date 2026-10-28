@@ -1,0 +1,11 @@
+Lendo arquivos com java
+
+A leitura de arquivos em Java pode ser feita usando varias classes da API, como FileReader, BufferdReader e a API java.nio.file
+
+FileReader é uma classe básica para ler dados de arquivos de texto, caracter por caracter 
+
+BufferedReader é uma classe que otimiza a leitura de arquivos, permitindo ler linhas inteiras de uma vez, o que melhora o desempenho 
+
+A manipulação adequada dos arquivos inclui sempre fechar o arquivo após a leitura, ou usar o try-with-resources para garantir o fechamento automático
+
+Try-with-resources é um try catch com argumentos no try, que neste caso serão os arquivos, e eles fecham automaticamente no fim da execução
