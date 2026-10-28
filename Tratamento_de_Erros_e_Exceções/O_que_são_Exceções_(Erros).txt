@@ -1,0 +1,14 @@
+O que são Exceções? (Erros)
+
+Exceções são eventos inesperados que interrompem a execução normal de um programa, geralmente causados por erros de logica ou condições imprevistas
+
+Em Java, todas as exceções são objetos que herdam da classe Throwable
+
+As exceções podem ser verificadas (checked) ou não verificadas (unchecked):
+
+   Verificadas: São verificadas pelo compilador e devem ser tratadas ou declaradas explicitamente. Ex: IOException
+
+   Não verificadas: Ocorrências em tempo de execução, não são obrigatórias de tratar. Ex: NullPointerException
+
+o tratamento de exceções permite capturar e lidar com erros, mantendo a estabilidade do programa e prevenindo encerramento abruptos
+ 
