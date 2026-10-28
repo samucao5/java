@@ -1,0 +1,11 @@
+Relançando Exceção
+
+o re-lançamento de exceções permite capturar uma exceção, realizar alguma ação (ex: log, limpeza de recursos) e, em seguida, lançar novamente a exceção 
+
+Útil para delegar o tratamento completo da exceção para outro método ou camada da aplicação
+
+Quando usar? Quando é necessário adicionar informações ao erro, executar alguma logica intermediaria ou realizar a limpeza de recursos
+
+Para preservar a pilha de execução (strack trace) original, é importante relançar a exceção sem modifica-la
+
+Sintaxe: throw e; no bloco catch após o tratamento desejado
