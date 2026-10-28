@@ -1,0 +1,14 @@
+Tempo de compilação vs tempo de execução
+
+Tempo de compilação: quando o código e verificado e convertido em bytecode pelo compilador
+
+    Erros detectados: Sintexe, tipos, declarações faltantes;
+
+    Exemplos: Esquecer um ponto e virgula ou declarar uma variável incorretamente
+
+Tempo de Execução: Quando o programa já compilado é executado pela máquina virtual
+
+    Erros Detectados: Lógica, exceções não verificadas, como NullPointerException
+
+    Exemplos: Divisão por zero ou acesso a um índice inexistente de Array
+
