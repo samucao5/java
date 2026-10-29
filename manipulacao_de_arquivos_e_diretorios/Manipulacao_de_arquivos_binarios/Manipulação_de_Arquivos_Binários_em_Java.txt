@@ -1,0 +1,12 @@
+Manipulação de Arquivos Binários em Java
+
+Arquivos binários contem dados que não são diretamente legíveis como texto (ex: imagens, vídeos, executáveis)
+
+Para manipular arquivos binários, usamos classes como FileInputStream e FileOutputStream, que leem e escrevem bytes diretamente
+
+Essas classes funcionam com dados como dados em nível de byte, permitindo ler e escrever qualquer tipo de arquivo
+
+O uso adequado dessas classes incluir sempre fechar os streams após a leitura/escrita, ou usar try-with-resources para garantir o fechamento automático
+
+Exemplo: Copiar ou modificar arquivos binários (imagens, PDFs, etc.)
+
