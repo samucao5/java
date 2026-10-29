@@ -1,0 +1,11 @@
+Escrita de Arquivos em java
+
+A escrita de arquivos pode ser feita utilizando classes como FileWriter e BufferedWriter
+
+FileWriter é uma classe básica que permite escrever dados de texto em arquivos, caracter por caracter
+
+BufferedWriter é uma classe que melhora a eficiência, permitindo escrever grande quantidades de dados de uma vez, otimizando o desempenho
+
+É possível sobrescrever um arquivo existente ou adicionar novos dados ao final do arquivo (modo append)
+
+O uso de try-with-resources garante o fechamento automático dos arquivos após a operação prevenindo vazamentos de recursos.
