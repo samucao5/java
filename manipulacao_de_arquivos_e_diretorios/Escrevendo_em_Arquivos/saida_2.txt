@@ -1,0 +1,2 @@
+escrevendo em arquivos com o buffered
+escrevendo em arquivos com o buffered 2testando
