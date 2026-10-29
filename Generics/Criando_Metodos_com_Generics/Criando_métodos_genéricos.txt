@@ -1,0 +1,20 @@
+Criando métodos genéricos
+
+Métodos Genéricos permitem que um método opere com diferentes tipos de dados, de forma parametrizada, semelhante a classes genéricas
+
+A principal diferença é que o parâmetro de tipo e declarado no nível do método e pode ser usado em qualquer método dentro da classe, sem tornar a classe inteira genérica 
+
+Sintaxe: O parâmetro de tipo e declarado entre <> antes do tipo de retorno do método
+
+Exemplo: <T> T metodoGenerico(T parâmetro);
+
+Vantagens:
+
+    Maior flexibilidade: O mesmo método pode manipular diferentes tipos de dados sem precisar duplicar código
+
+    Segurança de tipos: verificação em tempo de compilação garante que os tipos usados sejam consistentes
+
+Métodos genéricos são muitos usados em algoritmos de ordenação, busca e manipulação de coleções
+
+O uso de métodos genéricos ajuda a evitar o uso excessivo de casting, tornando o código mais robusto
+
