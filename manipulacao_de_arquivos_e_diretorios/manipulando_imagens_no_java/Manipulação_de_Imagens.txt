@@ -1,0 +1,15 @@
+Manipulação de Imagens
+
+A manipulação de imagens em Java é feita através das classes da API java.awt e java.awt.image, que permitem editar, desenhar e modificar imagens
+
+O BufferedImage é a classe principal para armazenar imagens na memoria, permitindo manipulação pixel a pixel
+
+A classe Graphics2D fornece métodos para desenhar na imagem, como adicionar texto, formas e até outras imagens
+
+Exemplos de manipulação:
+
+   Inserir texto ou marca d´água
+
+   Redimensionar ou rotacionar a imagem
+
+   Alterar cores ou aplicar filtros  
