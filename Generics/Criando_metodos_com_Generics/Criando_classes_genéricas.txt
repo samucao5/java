@@ -1,0 +1,20 @@
+Criando classes genéricas 
+
+classes genéricas permitem que uma classe opere com tipos de dados diferentes de maneira parametrizada
+
+Uma classe genérica utiliza parâmetros de tipo (como <T>, <E>, <K>,<V>) que podem ser substituídos por tipos específicos durante a criação de objetos 
+
+Vantagens: 
+
+    Maior flexibilidade e reutilização do código sem a necessidade de duplicação para tipos diferentes 
+
+    Segurança de tipos em tempo de compilação, prevenindo erros relacionados a tipos
+
+Sintaxe: A classe genérica é declarada com um parâmetro de tipo dentro de colchetes angulares (<>), Como <T>, onde T pode ser qualquer nome que representa um tipo de dado
+
+Classes genéricas são amplamente utilizadas nas coleções do java (ex: List<T>, Map<K, V>);
+
+Exemplo de uso:
+
+    Uma classe genérica pode manipular qualquer tipo de dados, seja Integer, String, ou ate outros Objetos mais complexos, proporcionando grande versatilidade
+
