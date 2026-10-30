@@ -1,0 +1,15 @@
+Generics com Coleções (Collections)
+
+Generics são amplamente utilizados nas coleções do Java, como List, Set e Map, para garantir segurança de tipos e evitar erros em tempo de execução
+
+Usando Generics em coleções, é possível especificar o tipo de objetos que uma coleção pode armazenar, tornando o código mais previsível e seguro
+
+Coleções Genéricas evitam a necessidade de casting explicito ao recuperar elementos e permitem que o compilador verifique se os tipos de dados inseridos são consistentes
+
+Principais Coleções Genéricas:
+
+    List<T>: Armazena uma lista ordenada de elementos do tipo T
+
+    Set<T>: Armazena uma coleção de elementos únicos do tipo T
+
+    Map<K, V>: Armazena pares chave-valor, onde K é o tipo da chave e V é o tipo do Valor
