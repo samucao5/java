@@ -1,0 +1,14 @@
+Coringas (Wildcards)
+
+Coringas (ou wildcards) são utilizados para tornar os tipos genéricos mais flexíveis ao permitir que parâmetros genéricos aceitem diferentes tipos sem especifica-los diretamente
+
+Um Coringa é representado pelo símbolo ?, e pode ser usado para definir tipos genéricos que não precisam ser exatamente um tipo especifico
+
+Tipos de Coringas:
+
+    Coringa sem Limitação (?): Aceita qualquer tipo
+
+    Coringa Com Extensão (? extends T): Aceita T ou qualquer subtipo de T
+
+    Coringa com supertipo (? super T): Aceita T ou qualquer supertipo de T
+
