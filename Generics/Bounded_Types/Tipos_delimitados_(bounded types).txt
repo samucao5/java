@@ -1,0 +1,17 @@
+Tipos delimitados (bounded types)
+
+Tipos delimitados (Bounded Types) permitem restringir o tipo genérico a um subtipo ou supertipo especifico, proporcionando maior controle sobre o tipo de dado aceito por uma classe ou método genérico
+
+Ao usar bounded types, você pode impor que o tipo genérico herde de uma classe especifica ou implemente uma interface
+
+Sintaxe:
+
+    Para restringir um tipo genérico a uma classe ou interface, usamos o operador extends
+
+    Exemplo: <T extends Number> - Isso significa que T deve ser uma subclasse de Number (como Integer, Double, etc.)
+
+Vantagens:
+
+    Permite reutilizar código genérico com maior flexibilidade e segurança, mas restringindo-nos tipos apropriados
+
+    Oferece segurança de tipos em tempo de compilação
