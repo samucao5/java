@@ -1,0 +1,23 @@
+trabalhando com List
+
+Introdução à Interface List
+
+    A interface List é usada para armazenar uma sequencia ordenada de elementos
+
+    Permite elementos duplicados e o acesso aos itens por índice
+
+    Oferece métodos eficientes para manipulação de elementos como adicionar, remover e modificar
+
+Tipo De List
+
+ArrayList:
+
+    Implementa List usando um array dinâmico
+
+    Acesso rápido por índice, porem operações de inserção/remoção são mais lentas, especialmente em grande lista
+
+LinkedList:
+
+    Implementa List como uma lista duplamente encadeada 
+
+    Inserção/remoção rápida, especialmente em qualquer posição, mas o acesso por índice e muito lento
