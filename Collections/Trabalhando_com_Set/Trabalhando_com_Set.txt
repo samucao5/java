@@ -1,0 +1,23 @@
+Trabalhando com Set
+
+Introdução à Interface Set:
+
+    Set é uma coleção que não permite duplicatas
+
+    Os elementos em um Set não possuem uma ordem definida, exceto em implementações especificas
+
+    Ideal para armazenar dados únicos onde a ordem não é tão importante
+
+Tipos de Set:
+
+    HashSet: não garante a ordem dos elementos, mas é eficiente para operações como adicionar e verificar elementos 
+
+    LinkedHashSet: mantem a ordem de inserção dos elementos
+
+    TreeSet: mantem os elementos ordenados de acordo com a ordem natural ou um Comparator personalizado
+
+Quando usar Set vs List:
+
+    Use Set quando não quiser duplicatas e a ordem dos elementos não for prioritárias 
+
+    Use List quando a ordem dos elementos for importante e duplicatas forem permitidas
