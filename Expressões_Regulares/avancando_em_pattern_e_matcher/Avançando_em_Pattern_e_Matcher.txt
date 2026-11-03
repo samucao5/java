@@ -1,0 +1,21 @@
+Avançando em Pattern e Matcher
+
+Principais Métodos da classe Pattern: 
+
+    compile(String regex): compila uma expressão regular em um padrão 
+
+    matches(String regex, CharSequence input): verifica se a string corresponde totalmente ao padrão
+
+    split(String input): Divide um string com base em um padrão
+
+Principais métodos da classe Matcher:
+
+    find(): busca subsequência que corresponde ao padrão 
+
+    group(): Retorna o valor da ultima correspondência encontrada
+
+    replaceAll(String replacement): Substitui todas as correspondências em uma string 
+
+    matches(): verifica se a string corresponde totalmente ao padrão
+
+    start() e end(): Retorna o índice de inicio e fim da correspondência encontrada 
