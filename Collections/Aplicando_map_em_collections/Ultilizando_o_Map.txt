@@ -1,0 +1,17 @@
+Ultilizando o Map
+
+o que é map()?
+
+    map() é uma operação intermediaria em Streams que aplica uma função a cada elemento de uma coleção, transformando-os em um novo valor ou tipo 
+
+   O resultado é um novo Stream com os elementos transformados, sem modificar a coleção original
+
+Quando usar map()?
+
+   Use map() quando você precisar transformar os elementos de uma coleção para outra forma ou estrutura
+
+   Exemplo: Converter uma lista de números em seus quadrados, ou transformar objetos complexos em um de seus atributos
+
+Sintaxe: 
+
+  stream.map(Function): Aplica a função especificada a cada elemento do Stream 
