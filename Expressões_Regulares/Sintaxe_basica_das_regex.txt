@@ -1,0 +1,25 @@
+Sintaxe básica das regex
+
+Metacaracteres são símbolos espaciais que representam padrões complexos nas expressões regulares:
+
+. : Representa qualquer caractere, exceto nova linha
+
+* : indica zero ou mais ocorrências do caractere anterior 
+
++ : indica uma ou mais ocorrência do caractere anterior 
+
+? : Indica zero ou uma ocorrência do caractere anterior (opcional) 
+
+[]: define um conjunto de caracteres .Ex: [abc] corresponde a "a", "b" ou "c"
+
+^ : Representa o inicio da string
+
+$: Representa o fim da string 
+
+Diferença entre caracteres literais e metacaracteres: 
+
+Caracteres literal: representa o próprio caractere, como "a", "1" ou "@"
+
+Metacaractere: Tem um significado especial na regex, como . ou *. Para usa-los como literais, é preciso escapá-los com uma barra invertida (\). Ex: \. corresponde a um ponte literal
+
+
