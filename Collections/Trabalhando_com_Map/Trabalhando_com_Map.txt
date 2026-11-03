@@ -1,0 +1,17 @@
+Trabalhando com Map
+
+Introdução à Interface Map
+
+    Map é uma coleção que armazena pares chave-valor, onde cada chave é única
+
+    Uma chave pode ter apenas um valor associado, mas os valores podem se repetir
+
+    Ideal para associações entre chave e valor, como dicionários ou catálogos
+
+Tipos de Map
+
+    HashMap: Não mantem a ordem de inserção. muito eficiente para buscar e inserção 
+
+    LinkedHashMap: Mantem a ordem de inserção das chaves
+
+    TreeMap: Mantem as chaves ordenadas de acordo com a ordem natural ou um Comparator
