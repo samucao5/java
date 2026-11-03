@@ -1,0 +1,20 @@
+Uso avançado de Streams 
+
+O que é flatMap()?
+
+    flatMap() é usado para transformar coleções de coleções em uma única coleção, "achatando" o resultado
+
+    Permite processar estruturas aninhadas, como listas dentro de listas
+
+Pipeline de Streams Avançado
+
+    Combinar múltiplas operações intermediarias como:
+
+	filter(): Filtrar os elementos com base em uma condição
+
+	map(): Transforma cada elemento
+
+	sorted(): Ordena os elementos
+
+Operações são encadeadas em um pipeline de Stream, que só é executado quando uma operação terminal é chamada
+
