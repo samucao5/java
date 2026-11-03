@@ -1,0 +1,16 @@
+Iterando sobre Collections 
+
+Maneiras de Iterar sobre Coleções 
+
+    For-each Loop: Simples e legível, ideal para leitura de elementos 
+
+    Iterator: Permite navegação sobre coleções, com a capacidade de remover elementos de forma segura durante a iteração
+
+    ListIterator: Extende o Interator, permitindo navegar em ambas as direções (Para frente e para trás) em coleções baseadas em lista (como ArrayList)
+
+Por que usar o Iterator?
+
+    Permite a remoção segura de elementos enquanto você percorre a coleção, o que não é possível diretamente com um for-each
+
+    Evita exceções como ConcurrentModificationException ao modificar a coleção enquanto a percorre
+
