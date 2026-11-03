@@ -1,0 +1,21 @@
+Ancoras e fronteiras
+
+Ancoras são utilizadas para definir posições dentro de uma string:
+
+    ^ : Indica o inicio de uma String
+
+    Exemplo:^a encontra Strings que começam com "a" 
+
+    $ : Indica o fim de uma String
+
+    Exemplo: a$ encontra Strings que terminal com "a"
+
+Fronteiras de palavras e não-Fronteiras
+
+    \b: representa uma fronteira de palavra (entre um caractere de palavra e um não caractere de palavra) 
+
+    Exemplo: \bword\b encontra "word" isolada, mas não "password"
+
+    \B: Representa uma não fronteira de palavra (quando não há uma fronteira de palavra)
+
+    Exemplo: \Bword encontra "password", mas não "word" isolada
