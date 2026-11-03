@@ -1,0 +1,20 @@
+Ordenação Personalizada com Comparator 
+
+O que é comparator?
+
+    A interface Comparator é usada para definir uma ordenação personalizada de objetos
+
+    Permite criar comparações complexas entre objetos sem modificar a classe original 
+
+Vantagens do Comparator
+
+    Flexibilidade para criar múltiplas ordenações para o mesmo tipo de objeto 
+
+    Facilita a ordenação por múltiplos atributos, como ordenar por nome e, em seguida, por idade
+
+Métodos principais
+
+    Compare(T o1, T o2): compara dois objetos e retorna um calor negativo, zero, ou positivo dependendo da ordem 
+
+    thenComparing(): Permite criar uma ordenação aninhada, aplicando múltiplos critérios de comparação
+
