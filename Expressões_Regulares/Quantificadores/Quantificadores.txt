@@ -1,0 +1,16 @@
+Quantificadores 
+
+Quantificadores definem quantas vezes um padrão pode ocorrer:
+
+* (zero ou mais): O caractere anterior pode aparecer zero ou mais vezes. Exemplo: a* corresponde a "", "a", "aa", "aaa", etc.
+
++ (uma ou mais): O caractere anterior deve aparecer pelo menos uma vez. Exemplo: a+ corresponde a "a", "aa", "aaa", mas não "".
+
+? (zero ou uma): O caractere anterior pode aparecer zero ou uma vez. Exemplo: a? corresponde a "", "a".
+
+{n}: o caractere anterior deve aparecer exatamente n vezes. Exemplo: a{3} corresponde a "aaa".
+
+{n,}: O caractere anterior deve aparecer pelo menos n vezes. Exemplo: a{2,} corresponde a "aa", "aaa", etc
+
+{n,m}: o caractere anterior deve aparecer entre n e m vezes. Exemplo: a{2,4} corresponde a "aa", "aaa", ou "aaaa".
+
