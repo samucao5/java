@@ -1,0 +1,15 @@
+Stream em Collections
+
+o que é Stream?
+
+    Stream é uma API introduzida no Java 8 para processamento de dados em coleções de forma declarativa
+
+    Permite realizar operações funcionais como filtrar, mapear e reduzir coleções, sem modificar a coleção original
+
+Operações Principais em Stream
+
+    Intermediarias: Executadas em uma coleção, retornam um novo Stream (ex: filter(), map(), Sorted());
+
+    Finais: Executadas ao final do pipeline de operações, retornam um resultado ou efeito colateral (ex: collect(), forEach(), reduce()); 
+
+A seguir veremos vários deste métodos de Stream em ação
