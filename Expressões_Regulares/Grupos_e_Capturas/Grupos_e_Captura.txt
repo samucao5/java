@@ -1,0 +1,20 @@
+Grupos e Captura
+
+Grupo e Captura:
+
+    Usam parênteses () para agrupar e capturar partes especificas de uma especificas de uma expressão regular
+
+    Cada grupo capturado pode ser reutilizado ou referenciado 
+
+Backreferences:
+
+    Permitem reutilizar um grupo capturado dentro da própria expressão com \1, \2, etc
+
+    Útil para encontrar padrões repetidos ou substituir partes de uma String
+
+Principais Usos de Grupos:
+
+    Agrupamento: Controla a ordem de aplicação dos operadores, como * ou +;
+
+    Captura: extrai e reutiliza subsequências correspondentes na expressão
+
