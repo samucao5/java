@@ -1,0 +1,21 @@
+O que são coleções imutáveis?
+
+    Coleções imutáveis são aquelas cujo conteúdo não pode ser modificado (adicionar, remover ou atualizar elementos)
+
+    Após a criação, não e possível alterar os dados na coleção
+
+    Evitar modificações acidentais e melhorar a segurança de dados em ambientes onde múltiplas threads estão acessando os dados
+
+Quando usar coleções imutáveis? 
+
+    Quando você quer garantir que os dados de uma coleção não serão alterados após sua criação 
+
+    Melhor pratica em cenários de concorrência, onde múltiplas threads podem acessar os dados simultaneamente
+
+    Em APIs que retornam dados para consumidores e não devem ser modificados
+
+Criando coleções Imutáveis
+
+    Collections.unmodifiablesList(): Cria uma versão imutável de uma lista existente
+
+    list.of(), Set.of(), Map.of(): métodos da API java 9+ que criam coleções imutáveis diretamente
