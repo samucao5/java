@@ -1,0 +1,19 @@
+Filtragem de Collections
+
+O que é filtragem de Collections?
+
+    Filtragem é o processo de selecionar elementos de uma coleção com base em uma condição especifica
+
+    Permite extrair subconjuntos de dados sem modificar a coleção original
+
+Quando usar filtragem?
+
+    Quando você deseja trabalhar com um subconjunto ddos dados em vez de toda a coleção 
+
+    Para limitar ou refinar dados em coleções grandes antes de realizar operações adicionais 
+
+Métodos para Filtragem de Collections
+
+    Streams (Java 8+): usando Filter() em Stream para aplicar condições de filtragem 
+
+    Iteração manual: usar loops para filtrar dados de uma coleção sem Streams 
