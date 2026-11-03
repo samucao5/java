@@ -1,0 +1,21 @@
+Busca de Collections 
+
+O que é busca em Collections?
+
+    Busca é o processo de encontrar um elemento dentro de um coleção, com base em uma condição ou valor especifico
+
+    É utilizada para verificar se um determinado dado existe na coleção ou para localizar itens que atendem a critérios específicos 
+
+Quando usar busca?
+
+    Para verificar se um valor especifico existe na coleção 
+
+    Para encontrar um ou mais elementos que atendam a determinadas condições 
+
+Métodos de busca em collections
+
+    contains(): Verifica se a coleção contem um elemento especifico
+
+    Stream (Java 8+): Usando findFirst(), findAny(), ou filter() para buscar elementos com base em condições
+
+    Iteração manual: Usar loops para buscar manualmente elementos em coleções
