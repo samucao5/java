@@ -1,0 +1,21 @@
+Ultilizando o Reduce
+
+O que é reduce()?
+
+    reduce() é uma operação final em Streams que reduz os elementos de um Stream a um único valor
+
+    É usado para agregar os elementos de uma coleção de maneira cumulativa, como somar, multiplica ou concatenar
+
+Quando usar reduce()?
+
+    Quando você precisa combinar ou agregar os elementos de uma coleção em um único resultado 
+
+    Exemplo: Somar todos os números em uma lista, calcular o produto de números ou concatenar String
+
+Sintaxe: 
+
+    stream.reduce(identity, BinaryOperator): Reduz os elementos aplicando a operação fornecida 
+
+    identity: valor inicial da operação 
+
+    BinaryOperator: Função que especifica como dois elementos devem ser combinados
