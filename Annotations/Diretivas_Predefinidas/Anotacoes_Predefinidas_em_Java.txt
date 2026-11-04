@@ -1,0 +1,27 @@
+Anotações Predefinidas em Java
+
+@Override:
+
+    Indica que um método esta sobrescrevendo um método da superclasse
+
+    Fornece verificação em tempo de compilação para garantir que a sobrescrita seja valida
+
+@Deprecated: 
+
+    Marca métodos, classes ou variáveis que estão obsoletos e podem ser removidos em versões futuras 
+
+    gera um aviso no compilador ao usar elementos marcados com essa anotação 
+
+@SupressWarnings: 
+
+    Instrui o compilador a suprimir certos tipos de avisos que ele geraria
+
+    Pode ser configurado para ignorar diferentes tipos de avisos, como unchecked, deprecation, etc
+
+Por que usar? 
+
+    @Override: Garante que a sobrescrita seja correta
+
+    @Deprecated: Sinaliza elementos obsoletos, orientando o desenvolvedor a evitar seu uso 
+
+    @SuppressWarnings: Permite limpar o código de avisos desnecessários, mantendo o foco em alertas importantes
