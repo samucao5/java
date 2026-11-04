@@ -1,0 +1,22 @@
+Regex com Flags (Opções Especiais)
+
+O que são Flags:
+
+    Flags são opções especiais que alteram o comportamento padrão das expressões regulares em Java
+
+    São usadas para modificar a forma como o regex é processado, permitindo correspondência mais flexíveis
+
+Principais Flags em Java:
+
+    Pattern.CASE_INSENSITIVE: Ignora diferenças entre maiúsculas e minúsculas
+
+    Pattern.MULTILINE: Trata o inicio (^) e fim ($) como correspondências por linhas em vez de toda a string
+
+    Pattern.DOTALL: Permite que o caractere .corresponda a todas as linhas, inclusive quebras de linha
+
+    Pattern.COMMENTS: Permite adicionar comentários e ignorar espaços em branco no regex, tornando-o mais legível
+
+Sintaxe para Usar Flags:
+
+    Pattern.compile(String regex, int flags): Compila uma expressão regular a flag fornecida
+
