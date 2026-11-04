@@ -1,0 +1,19 @@
+O que são Annotations?
+
+Annotations são metadados que fornecem informações adicionais ao compilador e à maquina virtual 
+
+Elas não afetam diretamente a execução do código, mas podem ser usadas para modificar comportamentos durante a compilação, tempo de execução ou ate mesmo em frameworks
+
+Funções das Annotations:
+
+    Sinalizam instruções especiais para o compilador
+
+    Auxiliam no tratamento de erros e na documentação do codigo 
+
+    Automatizam tarefas repetitivas por meio de ferramentas de processamento
+
+Tipos de Annotations:
+
+    Predefinidas: Como @Override, @Deprecated e @SuppressWarnings
+
+    Customizadas: Desenvolvedores podem criar suas próprias anotações para atender a necessidades especificas
