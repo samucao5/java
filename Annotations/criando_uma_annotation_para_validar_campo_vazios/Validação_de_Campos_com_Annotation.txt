@@ -1,0 +1,14 @@
+Validação de Campos com Annotation
+
+Anotação Customizada para validação de Campos:
+
+    Objetivo: Criar uma anotação customizada para validar se um campo de uma classe atende a uma determinada regra (ex: não pode ser nulo ou vazio)
+
+Elementos Importantes:
+
+@Target(ElementType.FIELD): Define qua a anotação pode ser aplicada a campos de uma classe
+
+@Retention(RetentionPolicy.RUNTIME): A anotação esta disponível em tempo de execução permitindo sua verificação por meio de reflection
+
+@interface: Define a anotação customizada com parâmetros específicos 
+
