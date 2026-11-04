@@ -1,0 +1,27 @@
+Expressões Regulares Avançadas 
+
+Lookaheads:
+
+    Verifica se há um padrão à frente sem consumi-lo na correspondência
+
+Sintaxe: 
+
+    Lookahead positivo: (?=...)
+
+    Lookahead negativo: (?!...)
+
+    \\d+(?=\\$): Encontra números seguidos de um símbolo de dólar ($), mas não inclui o dólar na correspondência 
+
+Lookbehinds:
+
+    Verifica se há um padrão antes sem consumi-lo na correspondência
+
+Sintaxe:
+
+    lookbehind positivo: (?<=...)
+
+    lookbehind negativo: (?<!...)
+
+Exemplo:
+
+    (?<#)\\w+: Encontra palavras que seguem imediatamente um símbolo de #, mas não inclui o # na correspondência
