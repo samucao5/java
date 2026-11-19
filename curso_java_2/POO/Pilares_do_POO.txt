@@ -1,0 +1,62 @@
+# Os 4 Pilares da Programação Orientada a Objetos (POO)
+
+## 1. O que é POO?
+
+A Programação Orientada a Objetos (POO) é um paradigma de programação que organiza o código por meio de classes e objetos, permitindo representar elementos do mundo real dentro de um sistema.
+
+Seu objetivo é facilitar a organização, reutilização, manutenção e evolução do código.
+
+A POO possui quatro pilares fundamentais:
+
+## 2. Encapsulamento
+
+O encapsulamento consiste em proteger os dados de um objeto, controlando a maneira como seus atributos podem ser acessados e modificados.
+
+Seu principal objetivo é evitar alterações indevidas e garantir que os dados sejam manipulados de maneira controlada.
+
+**Palavras-chave:** proteção, controle de acesso e segurança dos dados.
+
+## 3. Herança
+
+A herança permite que uma classe receba atributos e métodos de outra classe, possibilitando o reaproveitamento de código.
+
+A classe que fornece as características é chamada de superclasse, enquanto a classe que recebe essas características é chamada de subclasse.
+
+Seu principal objetivo é evitar repetições e estabelecer relações entre classes.
+
+**Palavras-chave:** reutilização, hierarquia e compartilhamento de características.
+
+## 4. Polimorfismo
+
+O polimorfismo permite que objetos de classes diferentes apresentem comportamentos diferentes diante de uma mesma chamada de método.
+
+Isso proporciona maior flexibilidade ao código, permitindo que diferentes classes implementem comportamentos específicos.
+
+Seu principal objetivo é facilitar a expansão e manutenção dos sistemas.
+
+**Palavras-chave:** flexibilidade, múltiplos comportamentos e sobrescrita de métodos.
+
+## 5. Abstração
+
+A abstração consiste em representar apenas as características e funcionalidades essenciais de um elemento, ocultando detalhes desnecessários de implementação.
+
+Na POO, pode ser utilizada por meio de classes abstratas e interfaces.
+
+Seu principal objetivo é simplificar a estrutura do sistema e definir comportamentos que devem ser implementados pelas classes.
+
+**Palavras-chave:** simplificação, ocultação de detalhes e definição de estruturas.
+
+## 6. Resumo para revisão
+
+| Pilar | Conceito principal |
+|---|---|
+| Encapsulamento | Protege e controla o acesso aos dados. |
+| Herança | Permite reutilizar características de outras classes. |
+| Polimorfismo | Permite diferentes comportamentos para uma mesma chamada. |
+| Abstração | Define características essenciais e oculta detalhes de implementação. |
+
+## Considerações finais
+
+Os quatro pilares são fundamentais para desenvolver sistemas organizados, reutilizáveis, flexíveis e de fácil manutenção.
+
+Compreender esses conceitos é essencial para trabalhar com Programação Orientada a Objetos em Java.
