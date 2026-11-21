@@ -1,0 +1,24 @@
+Modificadores de acesso em Java
+Os modificadores de acesso definem a visibilidade de classes, atributos, métodos e construtores, determinando quais partes do programa podem acessá-los.
+
+1. Private (Privado)
+
+Permite acesso somente dentro da própria classe. É muito utilizado para proteger atributos e aplicar o encapsulamento.
+
+2. Default (Padrão)
+
+Quando nenhum modificador é declarado, o acesso fica restrito às classes que pertencem ao mesmo pacote.
+
+3. Protected (Protegido)
+
+Permite acesso dentro do mesmo pacote e também por subclasses de outros pacotes, respeitando as regras de herança.
+
+4. Public (Público)
+
+Permite acesso de qualquer classe que consiga acessar o elemento, independentemente do pacote.
+Resumo
+- Private: acesso somente dentro da própria classe.
+- Default: acesso dentro do mesmo pacote.
+- Protected: acesso dentro do mesmo pacote e por herança.
+- Public: acesso geral.
+Importância na POO: os modificadores de acesso ajudam a controlar a visibilidade dos elementos, proteger informações e organizar a comunicação entre classes, contribuindo para o encapsulamento.
